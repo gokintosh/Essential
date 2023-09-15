@@ -31,10 +31,6 @@ dependencies {
 }
 
 
-plugins {
-	id 'java'
-}
-
 jar {
 	manifest {
 		attributes(
