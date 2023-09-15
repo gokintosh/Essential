@@ -30,6 +30,11 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
+jar {
+	manifest {
+		attributes 'Main-Class': 'com.gokul.lifestyleapp.LifestyleappApplication'
+	}
+}
 
 tasks.named('test') {
 	useJUnitPlatform()
